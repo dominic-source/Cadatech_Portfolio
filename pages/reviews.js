@@ -67,7 +67,7 @@ export default function Home({postData}) {
       <Grid container pl={5} mt={9} spacing={2} mb={3}>
         <Grid item md={4} sm={8} xs={10} sx={{position:'relative',width:'214px'}} pt={4}  >
           <div>
-            <img src='/images/Mask Group 25@2x.png' width={214} height={214} />
+            <img src='/images/Mask_Group_25@2x.png' width={214} height={214} />
             <hr className={`${styles.hr2} ${stylescampaign.posit}`}/>
           </div>
 
@@ -80,7 +80,7 @@ export default function Home({postData}) {
 
         <Grid item md={4} sm={8} xs={10} sx={{position:'relative',width:'214px'}} pt={4}  >
           <div>
-            <img src='/images/Mask Group 23@2x.png' width={214} height={214} />
+            <img src='/images/Mask_Group_23@2x.png' width={214} height={214} />
             <hr className={`${styles.hr2} ${stylescampaign.posit}`}/>
           </div>
 
@@ -93,7 +93,7 @@ export default function Home({postData}) {
 
         <Grid item md={4} sm={8} xs={10} sx={{position:'relative',width:'214px'}} pt={4}  >
           <div>
-            <img src='/images/Mask Group 24@2x.png' width={214} height={214} />
+            <img src='/images/Mask_Group_24@2x.png' width={214} height={214} />
             <hr className={`${styles.hr2} ${stylescampaign.posit}`}/>
           </div>
 
