@@ -48,7 +48,7 @@ export default function Home() {
     @params the Gridimagetext is a component that takes in atleast 4 props for component argument
   */}
       <Gridimagetext 
-          image={<Image src='/images/mockup-cover-2.png' width={370} height={370} />} 
+          image={<Image src='/images/mockup_cover_2.png' width={370} height={370} />} 
           content1='Beatifully simple' 
           content2='An afforable monthly zine, offering visual 
           stimulation and creative inspiration.'              
