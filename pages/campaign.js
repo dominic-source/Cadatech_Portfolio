@@ -67,7 +67,7 @@ export default function Home() {
     direction='column' 
     captionLeft={!state} 
     imageHeight={181} 
-    imageAddressName='mockup-cover-2.png'
+    imageAddressName='mockup_cover_2.png'
     cardWidth='282px'
     cardHeight='412px'
     pl='0px' 
