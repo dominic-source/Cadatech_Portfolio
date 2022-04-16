@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="46" viewBox="0 0 46 46">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="46" height="46" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="11" height="10" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Button:_Next_Previous" data-name="Button: Next/Previous" transform="translate(46 46) rotate(180)" clip-path="url(#clip-path)">
+    <circle id="Ellipse_337" data-name="Ellipse 337" cx="23" cy="23" r="23" fill="#24231f" opacity="0.5"/>
+    <g id="Ellipse_338" data-name="Ellipse 338" fill="none" stroke="#fff" stroke-width="1">
+      <circle cx="23" cy="23" r="23" stroke="none"/>
+      <circle cx="23" cy="23" r="22.5" fill="none"/>
+    </g>
+    <g id="Icon:_Button_Arrow" data-name="Icon: Button Arrow" transform="translate(18 18)" clip-path="url(#clip-path-2)">
+      <line id="Line_442" data-name="Line 442" x2="11" transform="translate(0 5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_443" data-name="Line 443" x2="5" y2="5" transform="translate(6)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_444" data-name="Line 444" x2="5" y2="5" transform="translate(11 5) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
