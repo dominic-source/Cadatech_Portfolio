@@ -1,6 +1,6 @@
-import { getParamData, getPostData, getPostId } from '../../lib/resizeImage';
+import { getParamData, getPostData, getPostId } from '../../lib/resizeimage';
 import Myheader from '../../components/myheader'
-import Sidemenu from '../../components/sideMenu'
+import Sidemenu from '../../components/sidemenu'
 import React from 'react'
 import {Grid,Typography,Box,Button} from '@mui/material'
 import Link from 'next/link'
@@ -9,7 +9,7 @@ import stylesnews from '../../styles/news.module.css'
 import Image from 'next/image'
 import Navigate from '../../components/navigation';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import Gridimagetext from '../../components/gridImageText'
+import Gridimagetext from '../../components/gridimagetext'
 import Myfooter from '../../components/footer2'
 
 
