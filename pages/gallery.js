@@ -195,7 +195,7 @@ export default function Home({postData}) {
 {/* This is the background color of the gallery pages */}
     <Box className={styles.back} />
 
-    <Myfooter key={48} />
+    <Myfooter key={49} />
   </Navigate>
     </div>
   )

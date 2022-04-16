@@ -49,7 +49,7 @@ export default function Home({postFaq}) {
     <Navigate allyPropsNum={9} key={45}>
       <Box sx={{bgcolor:'white',ml:{xs:1,sm:5,md:9}}} mt={9} mb={5} pb={2}>
       <Typography className={style.size4} sx={{textAlign:'center'}}>Frequently Asked Questions</Typography>
-        {postFaq.map((item,index)=><Fcontent question={item} />)}
+        {postFaq.map((item,index)=><Fcontent question={item} key={49} />)}
       </Box>
 
       <Box className={styles.back} />
