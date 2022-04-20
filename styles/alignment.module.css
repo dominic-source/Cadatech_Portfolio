@@ -1,20 +1,18 @@
 @font-face {
     font-family: 'Acumin Pro';
-    src: url('/fonts/Acumin-BdPro.otf') format('otf');
-    font-weight: bold;
-}
-@font-face {
-    font-family: 'Acumin Pro';
-    src: url('/fonts/Acumin-ltPro.otf') format('otf');
-    font-weight: lighter;
+    src: url('../assets/fonts/Acumin-BdPro.otf') format('otf');
+    src: url('../assets/fonts/Acumin-ItPro.otf') format('otf');
+    font-weight: 400;
 }
 @font-face {
     font-family: 'Park Lane';
-    src: url('/fonts/Park_Lane_NF.ttf') format('ttf');
+    src: url('../assets/fonts/Park_Lane_NF.ttf') format('ttf');
+    font-weight: 400;
 }
 @font-face {
     font-family: 'Helvetica';
-    src: url('/fonts/Helvetica_NeueLTW0693BlkExtObl.otf') format('otf');
+    src: url('../assets/fonts/Helvetica_NeueLTW0693BlkExtObl.ttf') format('otf');
+    font-weight: 400;
 }
 .apostrophy{
     position:relative;
@@ -404,37 +402,37 @@
 .sizea{
     font-size:10px;
     font-weight:lighter;
-    font-family:'Helvetica',Arial, Helvetica, sans-serif;
+    font-family:'Helvetica';
     color:darkgrey;
 }
 .sizeb{
     font-size:10px;
     font-weight:lighter;
-    font-family:'Helvetica',Arial, Helvetica, sans-serif;
+    font-family:'Helvetica';
 }
 
 .sizec{
     font-size:12px;
     font-weight: lighter;
-    font-family:'Helvetica',Arial, Helvetica, sans-serif;
+    font-family:'Helvetica';
 }
 
 .sized{
     font-size:12px;
     font-weight:bold;
-    font-family:'Helvetica',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Helvetica';
 
 }
 .sizee{
     font-size:15px;
     font-weight: lighter;
-    font-family:'Helvetica',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Helvetica';
     color:#8d7823;
 }
 .sizef{
     font-size: 15px;
     font-weight: bold;
-    font-family:'Helvetica',Arial, Helvetica, sans-serif;
+    font-family:'Helvetica';
 }
 .sizeg{
     font-size:12px;
@@ -445,29 +443,29 @@
     color:#24231F;
     padding-left:20px;
     padding-right:20px;
-    font-family:'Helvetica',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Helvetica';
 }
 .sizeh{
     font-size:18px;
     font-weight: bold;
-    font-family:'Acumin Pro',Arial, Helvetica, sans-serif;
+    font-family:'Acumin Pro';
 }
 .sizei{
     font-size: 27px;
     font-weight: bold;
-    font-family:'Acumin Pro','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Acumin Pro';
     color:#08d9d6;
 }
 .sizej{
     font-size: 33px;
     font-weight: bold;
-    font-family:'Acumin Pro','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Acumin Pro';
 }
 
 .sizek{
     font-size: 45px;
     font-weight: bold;
-    font-family:'Acumin Pro','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Acumin Pro';
 }
 .svg1{
     position:absolute;
