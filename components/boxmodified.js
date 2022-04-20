@@ -57,21 +57,21 @@ export default function Boxmodified({children}){
     return (
     
     <>
-      <Stack direction='row' spacing={2} pl={9} pt={4} >
+      <Stack direction='row' spacing={2} pl={7} pt={4} >
         <Singlebox  id={1} key={34} >
-            <AppsIcon color='action'/>
+            <AppsIcon color='action' sx={{fontSize:'30px'}}/>
         </Singlebox>
 
         <Singlebox id={2} key={35}>
-            <ViewListIcon color='action'/>
+            <ViewListIcon color='action' sx={{fontSize:'30px'}} />
         </Singlebox>
 
         <Singlebox id={3} key={36}>
-            <ViewCarouselIcon color='action'/>
+            <ViewCarouselIcon color='action' sx={{fontSize:'30px'}}/>
         </Singlebox>
 
         <Singlebox id={4} key={37}>
-            <SlideshowIcon color='action'/>
+            <SlideshowIcon color='action' sx={{fontSize:'30px'}}/>
         </Singlebox>
       </Stack>
 

@@ -125,13 +125,13 @@ export default function Navigate({children,allyPropsNum}) {
      <Stack direction='row' spacing={49} sx={{pt:1,pl:1}}>
         <Typography 
             sx={{color:'#24231F'}} 
-            className={styles.size1}> 
+            className={styles.sizea}> 
           WHAT'S WEIDO?
         </Typography>
 
         <Typography 
             sx={{color:'#24231F'}} 
-            className={styles.size1}> 
+            className={styles.sizea}> 
           WHY WE'RE FUNDING
         </Typography>
       </Stack>
@@ -161,7 +161,13 @@ export default function Navigate({children,allyPropsNum}) {
         <TabPanel value={value} index={allyPropsNum} key={12}> {children}
         </TabPanel>
       </Box>
-  </div>:<><Button onClick={toggleDrawer(true)} sx={{zIndex:20}}><MenuIcon fontSize='large' /></Button>
+  </div>:<><Stack direction="row" pl={3} pr={1} sx={{bgcolor:'#bffdfc'}}>
+  <Image src='/images/bkack.png' alt="upside down weirdo" arial-label="company logo called weirdo" width={130} height={130} />
+  <Button onClick={toggleDrawer(true)} sx={{zIndex:20,ml:'30%'}}>
+      <MenuIcon sx={{fontSize:'50px'}} />
+  </Button>
+  </Stack>
+  
          {/* This is the drawer that will be shown when the menu icon is clicked */}
           {change && <Drawer
             anchor='left'

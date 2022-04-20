@@ -21,9 +21,9 @@ const Cardhere = (props)=>{
 
       <div className={styles.cardcontent}>
         <div className={styles.cardsubcontent}>
-          <Typography variant="caption" className={styles.size3}>{props.name}</Typography> 
+          <Typography variant="caption" className={styles.sizeh}>{props.name}</Typography> 
 
-          <i className={styles.size01}> {props.title} <br/>{props.job} </i>
+          <i className={styles.sizec}> {props.title} <br/>{props.job} </i>
         </div>
 
         <Socialicon />
@@ -43,7 +43,7 @@ const Side = (props)=>{
     <Box color="#24231F" sx={{maxWidth:'150px',pl:1,mt:props.mt,pb:5,maxHeight:'200px',pt:props.pt}}>
         <hr className={styles.hr2}/>
 
-        <Typography variant="subtitle2" sx={{mt:2}} className={styles.size01}>
+        <Typography variant="subtitle2" sx={{mt:2}} className={styles.sizec}>
             {props.text}
         </Typography>
     </Box>

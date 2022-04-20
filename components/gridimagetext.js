@@ -10,13 +10,13 @@ export function Customtext(props){
         <div style={{width:'212px',color:'#24231F',paddingTop:'50px'}}>
             <Typography  
                 sx={{lineHeight:1.5}} 
-                className={style.size4}>
+                className={style.sizei}>
             {props.content2}
             </Typography> 
 
             <Typography 
                 sx={{lineHeight:1.5, mt:2}} 
-                className={style.size2} 
+                className={style.sizee} 
                 >
             {props.content3}
             </Typography>
@@ -36,20 +36,20 @@ return(
                 <Box >
                     <Typography 
                         sx={{lineHeight:1, pb:4}} 
-                        className={style.size5} 
+                        className={style.sizej} 
                         >
                     {props.content1}
                     </Typography>
 
                     <Typography 
                         sx={{lineHeight:1.5}} 
-                        className={style.size3}>
+                        className={style.sizeh}>
                     {props.content2}
                     </Typography> 
 
                     <Typography 
                         sx={{lineHeight:2.5, mt:2}} 
-                        className={style.size2} 
+                        className={style.sizee} 
                         >
                     {props.content3}
                     </Typography>
@@ -62,20 +62,20 @@ return(
               <Box>
                 <Typography 
                     sx={{lineHeight:1, pb:4}} 
-                    className={style.size5} 
+                    className={style.sizej} 
                    >
                 {props.content1}
                 </Typography>
               
                 <Typography 
                     sx={{lineHeight:1.5}} 
-                    className={style.size3}>
+                    className={style.sizeh}>
                 {props.content2}
                 </Typography> 
               
               <Typography 
                     sx={{lineHeight:2.5, mt:2}} 
-                    className={style.size2} 
+                    className={style.sizee} 
                     >
                 {props.content3}
                 </Typography>

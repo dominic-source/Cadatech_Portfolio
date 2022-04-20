@@ -1,10 +1,8 @@
 import {useEffect,useState} from 'react'
 import {Typography,Box,Grid} from '@mui/material'
 import styles from '../styles/alignment.module.css'
-import Newhrtext from './newhrtext'
 import Image from 'next/image'
-import stylesnews from '../styles/news.module.css'
-import PropTypes from 'prop-types';
+
 
 
 export default function Cardhorver({children,direction, captionLeft,
@@ -54,13 +52,13 @@ export default function Cardhorver({children,direction, captionLeft,
               />
               
               <div style={{paddingLeft:pl|| '15px',maxWidth:'230px',minHeight:'230px'}} >
-                <Typography variant='h4' sx={{mt:3,mb:2}} className={styles.size4}>{text1}.</Typography>
+                <Typography variant='h4' sx={{mt:3,mb:2}} className={styles.sizei}>{text1}.</Typography>
                 
                 <hr className={styles.hr1}/>
       
-                <Typography variant='button' component="h5" sx={{mt:3,mb:2}} className={styles.size3}>{text2}</Typography>
+                <Typography variant='button' component="h5" sx={{mt:3,mb:2}} className={styles.sizeh}>{text2}</Typography>
                 
-                <Typography variant='caption' component='h6' className={styles.size2} >{text3}</Typography>
+                <Typography variant='caption' component='h6' className={styles.sizee} >{text3}</Typography>
               </div>
             </Box>
             </Grid>

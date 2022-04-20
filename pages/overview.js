@@ -104,7 +104,7 @@ export default function Home() {
     </div>}
 
     <Box sx={{pl:{xs:1,sm:3,md:9},pr:{xs:1,sm:2},mt:2}}>
-      <Typography className={styles.size5} >A shift in the norm</Typography>
+      <Typography className={styles.sizej} >A shift in the norm</Typography>
 
       <Image  src='/images/Mask_Group_4.png' width={780} height={250}/>
     </Box>
@@ -114,14 +114,14 @@ export default function Home() {
       <Grid item xs={12} sm={12} md={6} pr={3}>
         <Typography  
             sx={{lineHeight:1.5}} 
-            className={styles.size3}>
+            className={styles.sizeh}>
             Sometimes all we need is a slight shift of mindset 
             to transform an idea, from good… to great.
         </Typography>
         
         <Typography  
             sx={{lineHeight:2.5}} 
-            className={styles.size2}>
+            className={styles.sizee}>
                 The team here at Weirdo got just a little overwhelmed 
                 by all the great, and immersive imagery out there. 
                 They come from a generation that didn’t grow up with 
@@ -132,14 +132,14 @@ export default function Home() {
       <Grid item xs={12} sm={12} md={6}>
         <Typography 
             sx={{lineHeight:2.5}} 
-            className={styles.size2}>
+            className={styles.sizee}>
                 …so when great imagery became mainstream they found themselves 
                 addicted to scrolling, spent hours down rabbit warrens, hashtag 
                 to hashtag – and as “AMAZING” as it was… they were left deflated. 
                 “Everyone is a photographer now… how do we ensure our creative 
                 output can still remain unique?”
         </Typography>
-        <Typography sx={{lineHeight:1.5}} className={styles.size3}>
+        <Typography sx={{lineHeight:1.5}} className={styles.sizeh}>
                 By taking it back to theory. And let’s give it an END. 
                 Let’s make it physical again. 
             </Typography>

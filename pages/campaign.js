@@ -44,9 +44,9 @@ export default function Home() {
   {state||<img src='/svg/dot.svg' style={{transform:'rotate(90deg)'}} />}
 
   <div className={stylesnews.adjust}>
-    <Typography className={styles.size5} >The ask</Typography>
+    <Typography className={styles.sizej} >The ask</Typography>
 
-    <Typography className={styles.size3}>
+    <Typography className={styles.sizeh}>
         Pre-order your first copy of Weirdo, so we can take it into production!
     </Typography>
   </div>
@@ -77,7 +77,7 @@ export default function Home() {
     key={41}
 > 
   {state||<Box sx={{display:'flex',flexDirection:'column'}}>
-    <div style={{ maxWidth:'370px',maxHeight:'137px',marginTop:'18px',marginLeft:'95px'}} className={`${styles.flexrow} ${styles.size2}`}>
+    <div style={{ maxWidth:'370px',maxHeight:'137px',marginTop:'18px',marginLeft:'95px'}} className={`${styles.flexrow} ${styles.sizee}`}>
           Weirdo is a photography zine at it’s core, think simple high-level concepts – 
           paired with your tea break – for when you JUST need that little spark of an idea, or 
           a way to pivot in another direction.
@@ -106,7 +106,7 @@ export default function Home() {
 </Cardhorver>
 
 {state || <Box sx={{background:'#F5F5F5',pt:4,mt:4,maxHeight:'500px',position:'relative'}}>
-  <Typography className={styles.size5} pl={17}>How we'll spend your money</Typography>
+  <Typography className={styles.sizej} pl={17}>How we'll spend your money</Typography>
 
   <div className={stylescampaign.allitem} >
     <div className={`${stylescampaign.content} ${stylescampaign.contentadj1}`}>           
@@ -119,16 +119,16 @@ export default function Home() {
 
     <div className={stylescampaign.content}>
       <Image src='/svg/roundcolors.svg' width={250} height={250}/>
-      <div className={`${styles.size4} ${stylescampaign.item}`}>£10,000</div>
+      <div className={`${styles.sizei} ${stylescampaign.item}`}>£10,000</div>
     </div>
 
 
     {/* Right part */}
     <Stack direction='row' className={stylescampaign.allitem1}>
       <Stack direction ='column' spacing={2} className={stylescampaign.alleachitem} sx={{width:'160px'}}>
-        <div className={`${styles.size01} ${stylescampaign.item3}`} style={{width:'160px'}}>£1050</div>
-        <div className={`${styles.size01} ${stylescampaign.item3}`} style={{width:'110px',marginLeft:'50px'}}>£200</div>
-        <div className={`${styles.size01} ${stylescampaign.item3}`} style={{width:'90px',marginLeft:'70px'}}>£3050</div>
+        <div className={`${styles.sizec} ${stylescampaign.item3}`} style={{width:'160px'}}>£1050</div>
+        <div className={`${styles.sizec} ${stylescampaign.item3}`} style={{width:'110px',marginLeft:'50px'}}>£200</div>
+        <div className={`${styles.sizec} ${stylescampaign.item3}`} style={{width:'90px',marginLeft:'70px'}}>£3050</div>
       </Stack>
 
       <Stack direction ='column' spacing={2} >
@@ -138,9 +138,9 @@ export default function Home() {
       </Stack>
 
       <Stack direction ='column' spacing={2} className={stylescampaign.alleachitem}>
-        <div className={`${styles.size002} ${stylescampaign.item1}`}>Printing</div>
-        <div className={`${styles.size002} ${stylescampaign.item1}`}>packaging</div>
-        <div className={`${styles.size002} ${stylescampaign.item1}`}>Advertising</div>
+        <div className={`${styles.sized} ${stylescampaign.item1}`}>Printing</div>
+        <div className={`${styles.sized} ${stylescampaign.item1}`}>packaging</div>
+        <div className={`${styles.sized} ${stylescampaign.item1}`}>Advertising</div>
       </Stack>
     </Stack>
     
@@ -148,8 +148,8 @@ export default function Home() {
     {/* Left part */}
     <Stack direction='row' className={stylescampaign.allitem2}>
       <Stack direction ='column' spacing={2} className={stylescampaign.alleachitem}>
-        <div className={`${styles.size002} ${stylescampaign.item2}`} >Distribution</div>
-        <div className={`${styles.size002} ${stylescampaign.item2}`} >Postage</div>
+        <div className={`${styles.sized} ${stylescampaign.item2}`} >Distribution</div>
+        <div className={`${styles.sized} ${stylescampaign.item2}`} >Postage</div>
       </Stack>
 
       <Stack direction ='column' spacing={2} >
@@ -158,8 +158,8 @@ export default function Home() {
       </Stack>
 
       <Stack direction ='column' spacing={2} className={stylescampaign.alleachitem}>
-        <div className={`${styles.size01} ${stylescampaign.item4}`} style={{width:'100px'}}>£4150</div>
-        <div className={`${styles.size01} ${stylescampaign.item4}`} style={{width:'140px'}}>£1550</div>
+        <div className={`${styles.sizec} ${stylescampaign.item4}`} style={{width:'100px'}}>£4150</div>
+        <div className={`${styles.sizec} ${stylescampaign.item4}`} style={{width:'140px'}}>£1550</div>
       </Stack> 
     </Stack>
 

@@ -49,17 +49,17 @@ export default function Home({postData}) {
         <Box color="#24231F" sx={{width:'250px',pl:2, marginTop:'15%',pb:2,minHeight:'200px'}}>
           <hr className={styles.hr2}/>
           
-          <Typography  component="h5" sx={{mt:1}} className={styles.size3}>Creative Director</Typography>
+          <Typography  component="h5" sx={{mt:1}} className={styles.sizeh}>Creative Director</Typography>
           
-          <Typography  sx={{mt:1,mb:2}} className={styles.size4}>Zoe Charlton</Typography>
-          
-          <Typography sx={{mt:2}} className={styles.size01}>⭐⭐⭐⭐⭐&nbsp;<small>5/5</small></Typography>
+          <Typography  sx={{mt:1,mb:2}} className={styles.sizei}>Zoe Charlton</Typography>
+    
+          <Typography sx={{mt:2}} className={styles.sizec}>⭐⭐⭐⭐⭐&nbsp;<small>5/5</small></Typography>
           
           <Apostrophy2 key={22}>
           Simple and truly effective. A no-brainer purchase, that will be a pleasure to receive each month.
           </Apostrophy2>
           
-          <Typography sx={{mt:1,fontStyle:'italic'}} className={styles.size01}>
+          <Typography sx={{mt:1,fontStyle:'italic'}} className={styles.sizec}>
           Zoe is Founder and Creative Director, based in New York City.</Typography>
         </Box>
 </Grid>
@@ -75,7 +75,7 @@ export default function Home({postData}) {
             Simple and truly effective. A no-brainer purchase, that will be a pleasure to receive each month.
           </Apostrophy2>
 
-          <Typography sx={{mt:1,fontStyle:'italic'}} className={styles.size01}>@adobeclouds.com</Typography>
+          <Typography sx={{mt:1,fontStyle:'italic'}} className={styles.sizec}>@adobeclouds.com</Typography>
         </Grid>
 
         <Grid item md={4} sm={8} xs={10} sx={{position:'relative',width:'214px'}} pt={4}  >
@@ -88,7 +88,7 @@ export default function Home({postData}) {
             Simple and truly effective. A no-brainer purchase, that will be a pleasure to receive each month.
           </Apostrophy2>
 
-          <Typography sx={{mt:1,fontStyle:'italic'}} className={styles.size01}>@adobeclouds.com</Typography>
+          <Typography sx={{mt:1,fontStyle:'italic'}} className={styles.sizec}>@adobeclouds.com</Typography>
         </Grid>
 
         <Grid item md={4} sm={8} xs={10} sx={{position:'relative',width:'214px'}} pt={4}  >
@@ -101,7 +101,7 @@ export default function Home({postData}) {
             Simple and truly effective. A no-brainer purchase, that will be a pleasure to receive each month.
           </Apostrophy2>
 
-          <Typography sx={{mt:1,fontStyle:'italic'}} className={styles.size01}>@adobeclouds.com</Typography>
+          <Typography sx={{mt:1,fontStyle:'italic'}} className={styles.sizec}>@adobeclouds.com</Typography>
         </Grid>
       </Grid>
       

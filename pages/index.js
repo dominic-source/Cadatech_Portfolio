@@ -22,34 +22,34 @@ export default function Home() {
     <Grid item xs={12} sm={6} md={6} pt='5%' >
           <div className={styles.backdrip}>
               <Stack spacing={2} sx={{maxWidth:'300px', pl:{xs:3,sm:4,md:5}}}>
-                  <Typography className={styles.size5} color='white'>Dominic<br/>
+                  <Typography className={styles.sizej} color='white'>Dominic<br/>
                    Full Stack Web Developer - Frontend and Backend Development
                    </Typography> 
                    <Typography variant='h6' color='white'>Welcome to cadatech, ready to help you build your business online. </Typography>
               </Stack>
               <Link href='https://wa.me/message/Q727P5NKPSPMJI'>
-                <Button variant='contained' sx={{mt:3, ml:{xs:3,sm:4,md:5}}} className={styles.size01}>Contact me</Button>
+                <Button variant='contained' sx={{mt:3, ml:{xs:3,sm:4,md:5}}} className={styles.sizec}>Contact me</Button>
               </Link>
           </div>
     </Grid>
 
-    <Grid item xs={12} sm={6} md={6} sx={{pt:{xs:4,sm:3,md:0}}}>
+    <Grid item xs={12} sm={6} md={6} sx={{pt:{xs:4,sm:3,md:0},pl:{xs:4,sm:3,md:0}}}>
             <img src='/images/chinonso.jpg' className={styles.imgchin}/>
     </Grid>
   </Grid>
 {/* Next Grid container */}
   <Grid container sx={{p:{xs:2,sm:4,md:7}}} spacing={2}>
-    <Grid item xs={12} sm={4} md={4}  className={styles.backdrip2} sx={{m:{xs:1,sm:3,md:3}}}>
-          <Typography  className={styles.size5}>Design</Typography>
-          <Typography className={styles.size01}>Designs are made for our customers, our deliverables are superb.</Typography>
+    <Grid item xs={12} sm={4} md={4}  className={styles.backdrip2} sx={{m:{xs:1,sm:3,md:3},ml:{xs:4,sm:3,md:3}}}>
+          <Typography  className={styles.sizej}>Design</Typography>
+          <Typography className={styles.sizec}>Designs are made for our customers, our deliverables are superb.</Typography>
     </Grid>
-    <Grid item xs={12} sm={4} md={4}  className={styles.backdrip2} sx={{m:{xs:1,sm:3,md:3}}}>
-          <Typography className={styles.size5}>Branding</Typography>
-          <Typography className={styles.size01}>You are our priority in all phases of your project</Typography>
+    <Grid item xs={12} sm={4} md={4}  className={styles.backdrip2} sx={{m:{xs:1,sm:3,md:3},ml:{xs:4,sm:3,md:3}}}>
+          <Typography className={styles.sizej}>Branding</Typography>
+          <Typography className={styles.sizec}>You are our priority in all phases of your project</Typography>
     </Grid>
-    <Grid item xs={12} sm={4} md={4} className={styles.backdrip2} sx={{m:{xs:1,sm:3,md:3}}}>
-          <Typography  className={styles.size5}>Product design</Typography>
-          <Typography className={styles.size01}>Working with cadatech ensures retention of your customers</Typography>
+    <Grid item xs={12} sm={4} md={4} className={styles.backdrip2} sx={{m:{xs:1,sm:3,md:3},ml:{xs:4,sm:3,md:3}}}>
+          <Typography  className={styles.sizej}>Product design</Typography>
+          <Typography className={styles.sizec}>Working with cadatech ensures retention of your customers</Typography>
     </Grid>
   </Grid>
 

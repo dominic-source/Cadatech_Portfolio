@@ -121,7 +121,7 @@ export default function Home({postData}) {
                     <Box sx={{width:"100%",height:'100%',pl:{xs:2,sm:5,md:9},pr:{xs:2,sm:5,md:9}}}>
                       <Typography 
                           sx={{lineHeight:1, mb:{xs:1,sm:2,md:4}}} 
-                          className={styles.size4} 
+                          className={styles.sizei} 
                           variant="h3">
                             {item.title}
                       </Typography>
@@ -131,13 +131,13 @@ export default function Home({postData}) {
                       <Typography 
                           variant='caption' 
                           sx={{lineHeight:1.5}} 
-                          className={styles.size2}>
+                          className={styles.sizee}>
                               {item.content}
                       </Typography> 
                       
                       <Typography 
                           sx={{lineHeight:1.5,mt:{xs:2,sm:3,md:5}}} 
-                          className={styles.size01} 
+                          className={styles.sizec} 
                           variant="h5">
                               <b>Photography:</b>
                               {item.photography}
@@ -145,7 +145,7 @@ export default function Home({postData}) {
                       
                       <Typography 
                           sx={{lineHeight:1.5}} 
-                          className={styles.size01} 
+                          className={styles.sizec} 
                           variant="h5">
                               <b>Design:</b>
                               {item.design}

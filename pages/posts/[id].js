@@ -48,7 +48,7 @@ export default function Home({postData,postParam}) {
                     <Image src='/images/Gallery-02@2x.png' width={214} height={214} />
 
                     <Link href="/campaign">
-                        <Button variant='outlined' className={styles.size02} sx={{mt:3}}>
+                        <Button variant='outlined' className={styles.sizef} sx={{mt:3}}>
                             See it on Cadatech
                         </Button>
                     </Link>
@@ -75,7 +75,7 @@ export default function Home({postData,postParam}) {
 
     <Link 
         href="/gallery">
-            <Button variant='outlined' className={styles.size02} sx={{ml:9}}>
+            <Button variant='outlined' className={styles.sizef} sx={{ml:9}}>
                 Back to all News
             </Button>
     </Link>
@@ -93,9 +93,9 @@ export default function Home({postData,postParam}) {
                             <div style={{width:'214px'}} className={stylesnews.auto}>
                                 <img src={'/images/'+ item.name } className={stylesnews.img1} />
 
-                                <Typography mt={3} className={styles.size3}>{item.title}</Typography>
+                                <Typography mt={3} className={styles.sizeh}>{item.title}</Typography>
 
-                                <Typography mt={2} className={styles.size01}>{item.content}</Typography>
+                                <Typography mt={2} className={styles.sizec}>{item.content}</Typography>
 
                                 <Link href={'/posts/'+ item.title}>
                                     <Box bgcolor='#24231F' color='white' mt={4} pl={1} 

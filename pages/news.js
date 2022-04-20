@@ -38,9 +38,9 @@ export default function Home({postData}) {
           <div style={{maxWidth:'214px'}} className={stylesnews.auto}>
               <img src={'/images/'+ item.name } className={stylesnews.img1} />
 
-              <Typography mt={3} className={styles.size3}>{item.title}</Typography> 
+              <Typography mt={3} className={styles.sizeh}>{item.title}</Typography> 
 
-              <Typography mt={2} className={styles.size01}>{item.content}</Typography>
+              <Typography mt={2} className={styles.sizec}>{item.content}</Typography>
 
               <Link href={'/posts/'+ item.title}>
                   <Box bgcolor='#24231F' color='white' mt={4} pl={1} className={stylesnews.arrowbox}>

@@ -37,13 +37,13 @@ export default function Home({postData}) {
       {index%2?<Stack direction='row' spacing={1} className={stylescampaign.pledgeimportant} sx={{bgcolor:'#08d9d6',m:{xs:2,sm:3}}}>
         <StarBorderIcon sx={{fontSize:'30px',color:'white'}} />
 
-        <Stack direction='column-reverse' className={styles.size001}>Featured</Stack>
+        <Stack direction='column-reverse' className={styles.sizeb}>Featured</Stack>
       </Stack>:
 
       <Stack direction='row' spacing={1} className={stylescampaign.pledgeimportant} sx={{bgcolor:'#F878B9',m:{xs:2,sm:3}}}>
         <CloseIcon sx={{fontSize:'30px',color:'white'}} />
 
-        <Stack direction='column-reverse' className={styles.size001}>NO MORE AVAILABLE!</Stack>
+        <Stack direction='column-reverse' className={styles.sizeb}>NO MORE AVAILABLE!</Stack>
       </Stack>}
 
       {/* The image for each prop */}
@@ -52,24 +52,24 @@ export default function Home({postData}) {
 
       <Grid item xs={12} sm={6} md={9}>
         <div className={stylescampaign.pledgecontent}>
-            <span className={styles.size5}>{item.id+(item.id*3.25)}$</span>&nbsp;<span  className={styles.size5}>or more</span><br/>
+            <span className={styles.sizej}>{item.id+(item.id*3.25)}$</span>&nbsp;<span  className={styles.sizej}>or more</span><br/>
 
-            <div className={styles.size2}>British pounds</div>
+            <div className={styles.sizee}>British pounds</div>
 
-            <div className={`${styles.size0002} ${stylescampaign.pledgecontentadj}`}>{item.title}</div>
+            <div className={`${styles.sizef} ${stylescampaign.pledgecontentadj}`}>{item.title}</div>
 
-            <div className={`${styles.size01} ${stylescampaign.pledgecontentmain}`}>{item.content}</div>
+            <div className={`${styles.sizec} ${stylescampaign.pledgecontentmain}`}>{item.content}</div>
         </div>
       
         <div className={stylescampaign.pledgefooter}>
             <Divider orientation="vertical" variant="middle" flexItem sx={{mr:3}} />
 
             <div>
-              <Typography className={styles.size01}>
+              <Typography className={styles.sizec}>
                 {item.id} Backers
               </Typography>
               
-              <Typography className={styles.size0002}>
+              <Typography className={styles.sizef}>
               {item.id}/100 available
               </Typography>
             </div>
@@ -77,11 +77,11 @@ export default function Home({postData}) {
             <Divider orientation="vertical" variant="middle" flexItem sx={{mr:3}} className={stylescampaign.pledgefootercontent2}/>
             
             <div >
-              <Typography className={styles.size01}>
+              <Typography className={styles.sizec}>
               International shipping: + £2
               </Typography>
               
-              <Typography className={styles.size01}>
+              <Typography className={styles.sizec}>
               Estimated delivery: Dec 2019
               </Typography>
             </div>

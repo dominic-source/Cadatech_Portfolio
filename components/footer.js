@@ -26,22 +26,22 @@ export default function Myfooter(){
   
   
     return(
-        <Box sx={{maxWidth:'781px',height:'130px',pl:{xs:2,sm:6,md:9},pt:3}} >
-            <Typography className={styles.size4}>
+        <Box sx={{maxWidth:'1000px',minHeight:'130px',pl:{xs:2,sm:6,md:9},pt:3,bgcolor:'#bffdfc'}} >
+            <Typography className={styles.sizei}>
                 Next up...
             </Typography>
 
             <Stack direction='row' spacing={{ xs: 1, sm: 2, md: 4 }} sx={{pt:3}}>
                 <Link href="/gallery">
-                    <Button variant='outlined' className={styles.size02}>Gallery</Button>
+                    <Button variant='outlined' className={styles.sizeg}>Gallery</Button>
                 </Link>
 
                 <Link href="/team">
-                    <Button variant='outlined' className={styles.size02}>The Team</Button>
+                    <Button variant='outlined' className={styles.sizeg}>The Team</Button>
                 </Link>
 
                 <Link href="/campaign">
-                    <Button variant='outlined' className={styles.size02}>Funding Campaign</Button>
+                    <Button variant='outlined' className={styles.sizeg}>Funding Campaign</Button>
                 </Link>
             </Stack>
 

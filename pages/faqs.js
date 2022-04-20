@@ -28,9 +28,9 @@ function Fcontent(props){
 
        { state && <CloseIcon className={style.imagegroup} onClick={()=>{setState(false)}} />}
         <Box>
-          <Typography className={`${style.size0002} ${style.timesplus}`} onClick={()=>{setState((prev)=>{return (!prev)})}}>{props.question}</Typography>
+          <Typography className={`${style.sizef} ${style.timesplus}`} onClick={()=>{setState((prev)=>{return (!prev)})}}>{props.question}</Typography>
 
-          {state && <Typography className={style.size2} sx={{width:'70%'}}>
+          {state && <Typography className={style.sizee} sx={{width:'70%'}}>
               Every month. If you pledge for Issue 01 only, this will be sent to you in December 2019. 
               If you sign up for 12 Issues, you will receive one each month, ending next November 2020.
           </Typography>}
@@ -48,7 +48,7 @@ export default function Home({postFaq}) {
     <Sidemenu key={44} />
     <Navigate allyPropsNum={9} key={45}>
       <Box sx={{bgcolor:'white',ml:{xs:1,sm:5,md:9}}} mt={9} mb={5} pb={2}>
-      <Typography className={style.size4} sx={{textAlign:'center'}}>Frequently Asked Questions</Typography>
+      <Typography className={style.sizei} sx={{textAlign:'center'}}>Frequently Asked Questions</Typography>
         {postFaq.map((item,index)=><Fcontent question={item} key={49} />)}
       </Box>
 

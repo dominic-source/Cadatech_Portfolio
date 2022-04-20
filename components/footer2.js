@@ -12,7 +12,7 @@ export default function Myfooter(){
     return(<>
         <Box sx={{maxHeight:'150px',bgcolor:'#DFE9BA',}} >
             <Link href="/goals">
-                    <Button variant='outlined' endIcon={<DoubleArrowIcon />} sx={{ml:{xs:1,sm:5,md:'40%'},mt:'4%',mb:3}} className={styles.size02}>
+                    <Button variant='outlined' endIcon={<DoubleArrowIcon />} sx={{ml:{xs:1,sm:5,md:'40%'},mt:'4%',mb:3}} className={styles.sizeg}>
                     Order it now</Button>
             </Link>
         </Box>
