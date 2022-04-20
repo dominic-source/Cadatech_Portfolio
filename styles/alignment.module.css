@@ -396,42 +396,41 @@
 }
 
 .sizea{
-    font-size:10px;
-    font-weight:lighter;
     font-family:'Helvetica';
+    font-weight:lighter;
     color:darkgrey;
+    font-size:10px;
 }
 .sizeb{
-    font-size:10px;
-    font-weight:lighter;
     font-family:'Helvetica';
+    font-weight:lighter;
+    font-size:10px;
 }
 
 .sizec{
-    font-size:12px;
     font-weight: lighter;
     font-family:'Helvetica';
+    font-size:12px;
 }
 
 .sized{
-    font-size:12px;
-    font-weight:bold;
     font-family:'Helvetica';
-
+    font-weight:bold;
+    font-size:12px;
 }
 .sizee{
-    font-size:15px;
-    font-weight: lighter;
     font-family:'Helvetica';
+    font-weight: lighter;
+    font-size:15px;
     color:#8d7823;
 }
 .sizef{
-    font-size: 15px;
-    font-weight: bold;
     font-family:'Helvetica';
+    font-weight: bold;
+    font-size: 15px;
 }
 .sizeg{
-    font-size:12px;
+    font-family:'Helvetica';
     font-weight:bold;
     border-color:#24231F;
     border-radius: 0px;
@@ -439,29 +438,31 @@
     color:#24231F;
     padding-left:20px;
     padding-right:20px;
-    font-family:'Helvetica';
+    font-size:12px;
 }
 .sizeh{
-    font-size:18px;
-    font-weight: bold;
     font-family:'AcuminPro';
+    font-weight: bold;
+    font-size:18px;
+
 }
 .sizei{
-    font-size: 27px;
-    font-weight: bold;
     font-family:'AcuminPro';
+    font-weight: bold;
+    font-size: 27px;
     color:#08d9d6;
 }
 .sizej{
-    font-size: 33px;
-    font-weight: bold;
     font-family:'AcuminPro';
+    font-weight: bold;
+    font-size: 33px;
 }
 
 .sizek{
-    font-size: 45px;
-    font-weight: bold;
     font-family:'AcuminPro';
+    font-weight: bold;
+    font-size: 45px;
+
 }
 .svg1{
     position:absolute;
