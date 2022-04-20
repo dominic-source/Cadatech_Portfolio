@@ -18,7 +18,7 @@ export default function Myheader(props){
       <meta httpEquiv='content-language' content='en-us' />
       
       <title>Google_Ecommerce - {props.page}</title>
-      <link 
+      {/* <link 
       rel='preload'
       href='../asset/fonts/Acumin-BdPro.otf'
       as='font'
@@ -38,7 +38,7 @@ export default function Myheader(props){
       as='font'
       type='font/ttf'
       crossOrigin='anonymous'
-      />
+      /> */}
     </Head>
     )
 }
