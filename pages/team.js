@@ -75,7 +75,7 @@ export default function Home() {
     <div>
     <Myheader Your_name='Chinonso morba' page="first page" key={3} />
     <Sidemenu key={4} />
-    <Navigate allyPropsNum={3} key={4}>
+    <Navigate allyPropsNum={3} key={37}>
     <Box sx={{display:"flex",flexDirection:'column'}}>
         <Image src='/images/Mask_Group_23@2x.png' width={942} height={650} />
 
@@ -115,7 +115,7 @@ export default function Home() {
                 <Image src='/images/Mask_Group_25@2x.png' width={215} height={215}/> 
                 <Side 
                   text='Jenni has a serious collection of Polaroid camera’s
-                    and spends a lot of her spare time shooting.'/>
+                    and spends a lot of her spare time shooting.' key={49}/>
             </div>}
             key={28}
     />

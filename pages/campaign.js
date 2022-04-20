@@ -35,7 +35,7 @@ export default function Home() {
     <div>
     <Myheader Your_name='Chinonso morba' page="first page" key={42} />
     <Sidemenu key={6} />
-    <Navigate allyPropsNum={5} key={7}>
+    <Navigate allyPropsNum={5} key={50}>
 <Image src='/images/campaign.png' width={932} height={346}/>
 
 {/* This div element displays text contents and an svg */}
@@ -98,7 +98,7 @@ export default function Home() {
             text2={<>No-hassle, <br/> Subscription</>} 
             text3="No contract, you may cancel at any time."
             mt='20%'
-            key={6}
+            key={25}
         />   
       </Grid>  
     </Grid> 

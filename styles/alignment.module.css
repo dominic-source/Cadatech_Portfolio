@@ -1,17 +1,13 @@
 @font-face {
-    font-family: 'Acumin Pro';
-    src: url('../assets/fonts/Acumin-BdPro.otf') format('otf');
-    src: url('../assets/fonts/Acumin-ItPro.otf') format('otf');
+    font-family: 'AcuminPro';
+    src: url('../asset/fonts/Acumin-BdPro.otf') format('otf');
+    src: url('../asset/fonts/Acumin-ItPro.otf') format('otf');
     font-weight: 400;
 }
-@font-face {
-    font-family: 'Park Lane';
-    src: url('../assets/fonts/Park_Lane_NF.ttf') format('ttf');
-    font-weight: 400;
-}
+
 @font-face {
     font-family: 'Helvetica';
-    src: url('../assets/fonts/Helvetica_NeueLTW0693BlkExtObl.ttf') format('otf');
+    src: url('../asset/fonts/Helvetica_NeueLTW0693BlkExtObl.ttf') format('otf');
     font-weight: 400;
 }
 .apostrophy{
@@ -448,24 +444,24 @@
 .sizeh{
     font-size:18px;
     font-weight: bold;
-    font-family:'Acumin Pro';
+    font-family:'AcuminPro';
 }
 .sizei{
     font-size: 27px;
     font-weight: bold;
-    font-family:'Acumin Pro';
+    font-family:'AcuminPro';
     color:#08d9d6;
 }
 .sizej{
     font-size: 33px;
     font-weight: bold;
-    font-family:'Acumin Pro';
+    font-family:'AcuminPro';
 }
 
 .sizek{
     font-size: 45px;
     font-weight: bold;
-    font-family:'Acumin Pro';
+    font-family:'AcuminPro';
 }
 .svg1{
     position:absolute;
