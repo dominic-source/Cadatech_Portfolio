@@ -22,19 +22,22 @@ export default function Myheader(props){
       rel='preload'
       href='../asset/fonts/Acumin-BdPro.otf'
       as='font'
-      crossOrigin=''
+      type='font/otf'
+      crossOrigin='anonymous'
       />
       <link 
       rel='preload'
       href='../asset/fonts/Acumin-ItPro.otf'
       as='font'
-      crossOrigin=''
+      type='font/otf'
+      crossOrigin='anonymous'
       />
       <link 
       rel='preload'
       href='../asset/fonts/Helvetica_NeueLTW0693BlkExtObl.ttf'
       as='font'
-      crossOrigin=''
+      type='font/ttf'
+      crossOrigin='anonymous'
       />
     </Head>
     )
