@@ -1,5 +1,5 @@
 import {React} from 'react';
-import style from '../styles/Home.module.css'
+// import style from '../styles/Home.module.css'
 import Myheader from '../components/myheader'
 import Sidemenu from '../components/sidemenu'
 import {getPostData} from '../lib/resizeimage';

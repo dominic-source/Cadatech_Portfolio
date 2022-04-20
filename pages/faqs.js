@@ -1,4 +1,3 @@
-import styles from '../styles/Home.module.css'
 import Myheader from '../components/myheader'
 import Sidemenu from '../components/sidemenu'
 import { getPostFaq } from '../lib/resizeimage'
