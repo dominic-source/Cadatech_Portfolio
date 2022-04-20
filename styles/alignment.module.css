@@ -1,15 +1,3 @@
-@font-face {
-    font-family: 'AcuminPro';
-    src: url('../asset/fonts/Acumin-BdPro.otf') format('otf');
-    src: url('../asset/fonts/Acumin-ItPro.otf') format('otf');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Helvetica';
-    src: url('../asset/fonts/Helvetica_NeueLTW0693BlkExtObl.ttf') format('otf');
-    font-weight: 400;
-}
 .apostrophy{
     position:relative;
     left:100%;

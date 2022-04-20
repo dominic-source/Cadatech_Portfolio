@@ -18,6 +18,24 @@ export default function Myheader(props){
       <meta httpEquiv='content-language' content='en-us' />
       
       <title>Google_Ecommerce - {props.page}</title>
+      <link 
+      rel='preload'
+      href='../asset/fonts/Acumin-BdPro.otf'
+      as='font'
+      crossOrigin=''
+      />
+      <link 
+      rel='preload'
+      href='../asset/fonts/Acumin-ItPro.otf'
+      as='font'
+      crossOrigin=''
+      />
+      <link 
+      rel='preload'
+      href='../asset/fonts/Helvetica_NeueLTW0693BlkExtObl.ttf'
+      as='font'
+      crossOrigin=''
+      />
     </Head>
     )
 }
