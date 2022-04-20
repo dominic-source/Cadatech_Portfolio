@@ -51,7 +51,7 @@ export default function Home({postFaq}) {
         {postFaq.map((item,index)=><Fcontent question={item} key={49} />)}
       </Box>
 
-      <Box className={styles.back} />
+      <Box className={style.back} />
 
       <Myfooter key={46} />
     </Navigate>
