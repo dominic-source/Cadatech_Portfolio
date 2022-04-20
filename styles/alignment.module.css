@@ -404,37 +404,37 @@
 .sizea{
     font-size:10px;
     font-weight:lighter;
-    font-family:'Helvetica';
+    font-family:'Helvetica',Arial, Helvetica, sans-serif;
     color:darkgrey;
 }
 .sizeb{
     font-size:10px;
     font-weight:lighter;
-    font-family:'Helvetica';
+    font-family:'Helvetica',Arial, Helvetica, sans-serif;
 }
 
 .sizec{
     font-size:12px;
     font-weight: lighter;
-    font-family:'Helvetica';
+    font-family:'Helvetica',Arial, Helvetica, sans-serif;
 }
 
 .sized{
     font-size:12px;
     font-weight:bold;
-    font-family:'Helvetica';
+    font-family:'Helvetica',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 .sizee{
     font-size:15px;
     font-weight: lighter;
-    font-family:'Helvetica';
+    font-family:'Helvetica',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:#8d7823;
 }
 .sizef{
     font-size: 15px;
     font-weight: bold;
-    font-family:'Helvetica';
+    font-family:'Helvetica',Arial, Helvetica, sans-serif;
 }
 .sizeg{
     font-size:12px;
@@ -445,29 +445,29 @@
     color:#24231F;
     padding-left:20px;
     padding-right:20px;
-    font-family:'Helvetica';
+    font-family:'Helvetica',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .sizeh{
     font-size:18px;
     font-weight: bold;
-    font-family:'Acumin Pro';
+    font-family:'Acumin Pro',Arial, Helvetica, sans-serif;
 }
 .sizei{
     font-size: 27px;
     font-weight: bold;
-    font-family:'Acumin Pro';
+    font-family:'Acumin Pro','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#08d9d6;
 }
 .sizej{
     font-size: 33px;
     font-weight: bold;
-    font-family:'Acumin Pro';
+    font-family:'Acumin Pro','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .sizek{
     font-size: 45px;
     font-weight: bold;
-    font-family:'Acumin Pro';
+    font-family:'Acumin Pro','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .svg1{
     position:absolute;
