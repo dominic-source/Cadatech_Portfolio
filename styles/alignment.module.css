@@ -384,41 +384,41 @@
 }
 
 .sizea{
-    font-family:'Helvetica';
     font-weight:400;
     color:darkgrey;
     font-size:10px;
 }
 .sizeb{
-    font-family:'Helvetica';
     font-weight:400;
     font-size:10px;
 }
 
 .sizec{
     font-weight: 400;
-    font-family:'Helvetica';
     font-size:12px;
 }
 
 .sized{
-    font-family:'Helvetica';
     font-weight:700;
     font-size:12px;
 }
+.sized,.sizee,.sizef,.sizeg{
+    font-family:Helvetica;
+}
+
+.sizeh,.sizei,.sizej,.sizek{
+    font-family:AcuminPro;
+}
 .sizee{
-    font-family:'Helvetica';
     font-weight: 400;
     font-size:15px;
     color:#8d7823;
 }
 .sizef{
-    font-family:'Helvetica';
     font-weight: 700;
     font-size: 15px;
 }
 .sizeg{
-    font-family:'Helvetica';
     font-weight:700;
     border-color:#24231F;
     border-radius: 0px;
@@ -429,25 +429,21 @@
     font-size:12px;
 }
 .sizeh{
-    font-family:'AcuminPro';
     font-weight: 700;
     font-size:18px;
 
 }
 .sizei{
-    font-family:'AcuminPro';
     font-weight: 700;
     font-size: 27px;
     color:#08d9d6;
 }
 .sizej{
-    font-family:'AcuminPro';
     font-weight: 700;
     font-size: 33px;
 }
 
 .sizek{
-    font-family:'AcuminPro';
     font-weight: bold;
     font-size: 45px;
 
