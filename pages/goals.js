@@ -48,7 +48,6 @@ export default function Home({postData}) {
         </div>
       
         <div>
-   
             <Typography className={styles.sizec} sx={{pt:{xs:2,sm:4,md:6}}}> Estimated delivery: Dec 2019 </Typography>
         </div>
       </Grid>
