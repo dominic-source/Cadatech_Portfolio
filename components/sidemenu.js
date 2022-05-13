@@ -129,7 +129,7 @@ useEffect(() =>{
         </CardContent>
 
         <CardActions>
-          <Link href='https://wa.me/message/Q727P5NKPSPMJI'>
+          <Link href='#'>
             <Newbutton variant='contained' >
               Order it now &gt;&gt; 
             </Newbutton>

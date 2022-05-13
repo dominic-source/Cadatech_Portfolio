@@ -10,6 +10,7 @@ import Link from 'next/link'
 import styles from '../styles/alignment.module.css'
 
 export default function Home() {
+
   return (
     <div>
     <Myheader Your_name='Chinonso morba' page="first page" key={0} />
@@ -20,14 +21,14 @@ export default function Home() {
 
   <Grid container sx={{p:{xs:2,sm:4,md:7}}}>
     <Grid item xs={12} sm={6} md={6} pt='5%' >
-          <div className={styles.backdrip}>
+            <div className={styles.backdrip}>
               <Stack spacing={2} sx={{maxWidth:'300px', pl:{xs:3,sm:4,md:5}}}>
                   <Typography className={styles.sizej} color='white'>Dominic<br/>
                    Full Stack Web Developer - Frontend and Backend Development
                    </Typography> 
                    <Typography variant='h6' color='white'>Welcome to cadatech, ready to help you build your business online. </Typography>
               </Stack>
-              <Link href='https://wa.me/message/Q727P5NKPSPMJI'>
+              <Link href='#'>
                 <Button variant='contained' sx={{mt:3, ml:{xs:3,sm:4,md:5}}} className={styles.sizec}>Contact me</Button>
               </Link>
           </div>
